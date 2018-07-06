@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CrystalsCollector Game</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>CrystalsCollector</h1>
+    <div id="rules">
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by adding the total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    
+    <div id="computerguessnumber"> <span id="randomnumber"></span></div>
+    <div id="winlossesbox">
+        <p>Wins: <span id="winscount"></span></p>
+        <p>Losses: <span id="lossescount"></span></p>
+    </div>
+
+    <img id="yellow" src="C:/Users/Belen/Desktop/unit-4-game/assets/images/shape1.png">
+    <img id="red" src="C:/Users/Belen/Desktop/unit-4-game/assets/images/shape2.png">
+    <img id="purple" src="C:/Users/Belen/Desktop/unit-4-game/assets/images/shape3.png">
+    <img id="green" src="C:/Users/Belen/Desktop/unit-4-game/assets/images/shape4.png">
+
+    <div id="scorebox"><span id="accumulator"></span></div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+body {
+    background-image: url("../assets/images/background.png");
+}
+
+h1 {
+    color: palevioletred;
+    font-family: 'Shrikhand', cursive;
+    background-color: lightblue;
+    width: 250px;
+    height: 50px;
+    border: 7px solid pink;
+    margin: 25px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#rules {
+    color: palevioletred;
+    font-family: 'EB Garamond', serif; 
+    font-size: 20px;
+    background-color: lightyellow;
+    width: 370px;
+    border: 3px solid pink;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#computerguessnumber {
+    background-color: lightyellow;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    font-size: 60px;
+    color: plum;
+    border: 1px solid salmon;
+}
+
+#winlossesbox {
+    background-color: lightyellow;
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    padding-left: 5px;
+    margin: 25px;
+    font-size: 20px;
+    color: plum;
+    padding-top: 35px;
+    border: 1px solid salmon;
+}
+
+#scorebox {
+    background-color: lightyellow;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    font-size: 60px;
+    border: 1px solid salmon;
+    text-align: center;
+    color: plum;
+}
